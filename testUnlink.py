@@ -24,8 +24,7 @@ def create_and_delete_temp_image():
         #cv2.imshow(temp_filename,img)
         #cv2.waitKey(10000)
         #cv2.destroyAllWindows()
-    os.unlink(temp_filename)
-
+    os.unlink(temp_filename)#this stupid line
 
 
 
